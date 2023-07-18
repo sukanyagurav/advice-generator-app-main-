@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1 class="heading">Advice #<span class="adviceId">117</span></h1>
+    <p class="advice" id="advice"></p>
+   
+    <picture>
+      <source srcset="images/pattern-divider-desktop.svg" media="(min-width:50em)">
+      <img src="images/pattern-divider-mobile.svg" alt="" class="quote" aria-hidden="true">
+    </picture>
+
+    <button class="btn" aria-label="Click for Random Advice"  id="btn"><img src="images/icon-dice.svg" alt="" aria-hidden="true"> </button>
+  </main>
+
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">SG</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
