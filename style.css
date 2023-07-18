@@ -83,7 +83,9 @@ a{
 }
 .btn:hover img{
     transform: rotateX(-180deg);
+    cursor: pointer;
 }
+.btn:disabled img,
 .btn:disabled{
     cursor: not-allowed;
 }
